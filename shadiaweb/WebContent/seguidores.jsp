@@ -1,12 +1,11 @@
 <%@ include file = "template/header.jsp" %>
 
 <div class="row">
-
 <c:forEach var="siguiendo" items="${usuario.amistads1}">
-<div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        
-              </div>
+<div class="perfildiv col-6 col-lg-3">
+<div class="perfil col-12">
+<img class="crop img-responsive" src="resources/fotos/${siguiendo.usuario2.usuario}.JPEG">
+     </div>                </div>
 </c:forEach>
 
 </div>
