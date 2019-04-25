@@ -2,8 +2,9 @@
 
 <div class="row">
 <section class="col-12 col-md-12">
-<a href="siguiendo.jsp">Seguidores</a>
-<a href="seguidores.jsp">Siguiendo</a>
+<a href="siguiendo.jsp">Siguiendo</a>
+<a href="seguidores.jsp">Seguidores</a>
+<a href="siguiendo.jsp">Cerrar</a>
 SESION
 </section>
 </div>

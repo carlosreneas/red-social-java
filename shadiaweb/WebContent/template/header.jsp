@@ -14,5 +14,6 @@
 <body>
 <div class="container">
 <header>
-	<h1>ShadiaGRAM</h1>
+	<h1>ShadiaGRAM v 1.0</h1>
 </header>
+<nav>MENU</nav>
